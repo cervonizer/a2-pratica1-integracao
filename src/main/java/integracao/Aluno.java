@@ -47,7 +47,7 @@ public class Aluno {
 			if (media < 30) {
 				return false;
 			} else {
-				if (media > 70) {
+				if (media >= 70) {
 					return true;
 				} else {
 					if ((media + notaFinal) / 2 >= 50) {
